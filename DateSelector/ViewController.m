@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor blackColor];
+    
     button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setTitle:@"选择时间" forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:13];
